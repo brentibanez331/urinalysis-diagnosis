@@ -22,6 +22,7 @@ const config: Config = {
         "primary-500": "#F8F4EB",
       },
       screens: {
+        'sm-3': '360px',
         'sm-2': '400px',
       }
     },

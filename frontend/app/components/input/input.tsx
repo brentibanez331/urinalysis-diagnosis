@@ -71,10 +71,10 @@ export default function InputField() {
     }
 
     return (
-        <div className="mx-80 mt-10 sm:mx-20 md:mx-20 xl:mx-80 sm-2:mx-10">
+        <div className="mx-80 mt-10 sm:mx-20 md:mx-20 xl:mx-80 sm-2:mx-10 sm-3:mx-2.5">
             <div>
-                <h1 className='text-5xl sm-2:text-4xl'>Urinalysis Test Diagnosis</h1>
-                <p className='my-1.5 sm-2:text-sm'><strong>Disclaimer:</strong> This model is only 94% accurate. Do not consider this as an official urinalysis test. If you are experiencing any symptoms of UTI, please see a registered doctor.</p>
+                <h1 className='text-5xl sm-3:text-4xl'>Urinalysis Test Diagnosis</h1>
+                <p className='my-1.5 sm-3:text-sm'><strong>Disclaimer:</strong> This model is only 94% accurate. Do not consider this as an official urinalysis test. If you are experiencing any symptoms of UTI, please see a registered doctor.</p>
             </div>
             <form onSubmit={makePostRequest}>
                 <div className="">
@@ -223,7 +223,7 @@ export default function InputField() {
             </div>
             <hr></hr>
             <div className='my-20'>
-                <p className='my-1.5 text-black text-center'>The model is trained from data taken in a local clinic in Northern Mindanao, Philippines. For more information, you can check out the data source <a className='underline' href='https://www.kaggle.com/datasets/avarice02/urinalysis-test-results'>HERE</a>.</p>
+                <p className='my-1.5 text-black text-center sm-3:text-sm'>The model is trained from data taken in a local clinic in Northern Mindanao, Philippines. For more information, you can check out the data source <a className='underline' href='https://www.kaggle.com/datasets/avarice02/urinalysis-test-results'>HERE</a>.</p>
             </div>
         </div>
 
