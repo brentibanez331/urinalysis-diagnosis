@@ -59,7 +59,6 @@ export default function InputField() {
 
             if (response.status === 200) {
                 setData(response.data);
-                alert('Request success with status');
             } else {
                 alert('Request failed with status: ' + response.status);
             }
