@@ -71,10 +71,10 @@ export default function InputField() {
     }
 
     return (
-        <div className="mx-80 mt-10">
+        <div className="mx-80 mt-10 sm:mx-20 md:mx-20 xl:mx-80 sm-2:mx-10">
             <div>
-                <h1 className='text-5xl'>Urinalysis Test Diagnosis</h1>
-                <p className='my-1.5'><strong>Disclaimer:</strong> This model is only 94% accurate. Do not consider this as an official urinalysis test. If you are experiencing any symptoms of UTI, please see a registered doctor.</p>
+                <h1 className='text-5xl sm-2:text-4xl'>Urinalysis Test Diagnosis</h1>
+                <p className='my-1.5 sm-2:text-sm'><strong>Disclaimer:</strong> This model is only 94% accurate. Do not consider this as an official urinalysis test. If you are experiencing any symptoms of UTI, please see a registered doctor.</p>
             </div>
             <form onSubmit={makePostRequest}>
                 <div className="">

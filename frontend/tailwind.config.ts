@@ -20,6 +20,9 @@ const config: Config = {
         "gray-500": "#5E0000",
         "primary-100": "#F8F4EB",
         "primary-500": "#F8F4EB",
+      },
+      screens: {
+        'sm-2': '400px',
       }
     },
   },
