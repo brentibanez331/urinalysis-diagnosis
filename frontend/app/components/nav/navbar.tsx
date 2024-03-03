@@ -12,7 +12,7 @@ export default function Navbar({
             <div><a href="#" className='font-bold text-3xl'>UTD</a></div>
             <div>
                 <ul className='flex'>
-                    <li className='transition ease-in-out duration-150 hover:opacity-50'><a href="" target="_blank">Github</a></li>
+                    <li className='transition ease-in-out duration-150 hover:opacity-50'><a href="https://github.com/brentibanez331/urinalysis-ph" target="_blank">Github</a></li>
                     <li className="sm-3:ml-2 sm-2:ml-3 md:ml-10 transition ease-in-out duration-150 hover:opacity-50"><a href="https://www.kaggle.com/datasets/avarice02/urinalysis-test-results" target="_blank">Dataset</a></li>
                     <li className="sm-3:ml-2 sm-2:ml-3 md:ml-10 transition ease-in-out duration-150 hover:opacity-50"><a href="https://www.linkedin.com/in/renibanez/" target="_blank">Contact Me</a></li>
                 </ul>
